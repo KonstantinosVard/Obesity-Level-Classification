@@ -1,0 +1,5 @@
+outs:
+- md5: ad393f04a49d4399b9b3a21c9eea137c
+  size: 94882199
+  hash: md5
+  path: rf_dict.pkl

@@ -1,0 +1,5 @@
+outs:
+- md5: 4c6039e4b9350ce7b76b8cf3feccab64
+  size: 58392759
+  hash: md5
+  path: gb_dict.pkl
