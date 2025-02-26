@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Model Prediction</title>
+</head>
+<body>
+    <h1>Welcome to the Model Predictor</h1>
+    <form method="POST" action="/predict">
+  	<label for="Height">Height (meters)   :</label>
+   	<input type="text" id="Height" name="Height" required><br><br>
+
+   	<label for="Weight">Weight (kilograms):</label>
+   	<input type="text" id="Weight" name="Weight" required><br><br>
+
+    	<button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+        <p>Prediction: {{ result }}</p>
+    {% endif %}
+</body>
+</html>
